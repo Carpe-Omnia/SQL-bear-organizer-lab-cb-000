@@ -1,9 +1,9 @@
 "CREATE TABLE  bears (
 id INTEGER PRIMARY KEY,
 name TEXT,
-age INTEGER DEFAULT NULL,
-gender TEXT DEFAULT NULL,
-color TEXT DEFAULT NULL,
-temperament TEXT DEFAULT NULL,
-alive INTEGER DEFAULT 1,
+age INTEGER,
+gender TEXT,
+color TEXT,
+temperament TEXT,
+alive INTEGER ,
 );"
